@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# React dependencies, local data, and deployment credentials
+node_modules/
+/.cache-*/
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+*.pem
+*.ppk
+*.zip
+playwright-report/
+test-results/
